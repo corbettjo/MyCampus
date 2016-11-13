@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		FC411F571DC7D27000A5BFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC411F561DC7D27000A5BFEE /* Assets.xcassets */; };
 		FC411F5A1DC7D27000A5BFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC411F581DC7D27000A5BFEE /* LaunchScreen.storyboard */; };
 		FC411F651DC7D27000A5BFEE /* MyCampusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F641DC7D27000A5BFEE /* MyCampusTests.swift */; };
+		FCCA42801DD91B3C0028A49A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCA427F1DD91B3C0028A49A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FC411F601DC7D27000A5BFEE /* MyCampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC411F641DC7D27000A5BFEE /* MyCampusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCampusTests.swift; sourceTree = "<group>"; };
 		FC411F661DC7D27000A5BFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCA427F1DD91B3C0028A49A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */,
 				FC411F511DC7D27000A5BFEE /* ViewController.swift */,
 				FC411F531DC7D27000A5BFEE /* Main.storyboard */,
+				FCCA427F1DD91B3C0028A49A /* Images.xcassets */,
 				FC411F561DC7D27000A5BFEE /* Assets.xcassets */,
 				FC411F581DC7D27000A5BFEE /* LaunchScreen.storyboard */,
 				FC411F5B1DC7D27000A5BFEE /* Info.plist */,
@@ -156,7 +159,7 @@
 				};
 			};
 			buildConfigurationList = FC411F471DC7D27000A5BFEE /* Build configuration list for PBXProject "MyCampus" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC411F5A1DC7D27000A5BFEE /* LaunchScreen.storyboard in Resources */,
+				FCCA42801DD91B3C0028A49A /* Images.xcassets in Resources */,
 				FC411F571DC7D27000A5BFEE /* Assets.xcassets in Resources */,
 				FC411F551DC7D27000A5BFEE /* Main.storyboard in Resources */,
 			);
@@ -339,6 +343,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8BVP6S88GC;
 				INFOPLIST_FILE = MyCampus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyCampus;
@@ -351,6 +357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8BVP6S88GC;
 				INFOPLIST_FILE = MyCampus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyCampus;
@@ -406,6 +414,7 @@
 				FC411F6B1DC7D27000A5BFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC411F6C1DC7D27000A5BFEE /* Build configuration list for PBXNativeTarget "MyCampusTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +423,7 @@
 				FC411F6E1DC7D27000A5BFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
