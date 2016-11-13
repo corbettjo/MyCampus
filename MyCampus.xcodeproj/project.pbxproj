@@ -10,6 +10,7 @@
 		7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */; };
 		7DEF74201DD8F1EA009A8865 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */; };
 		7DEF74221DD90143009A8865 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF74211DD90143009A8865 /* Event.swift */; };
+		FC1257631DD927D1000FCEC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1257621DD927D1000FCEC7 /* Images.xcassets */; };
 		FC411F501DC7D27000A5BFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */; };
 		FC411F521DC7D27000A5BFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F511DC7D27000A5BFEE /* ViewController.swift */; };
 		FC411F551DC7D27000A5BFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC411F531DC7D27000A5BFEE /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 		7DEF74211DD90143009A8865 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FC1257621DD927D1000FCEC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../../../../Desktop/Images.xcassets; sourceTree = "<group>"; };
 		FC411F4C1DC7D27000A5BFEE /* MyCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC411F511DC7D27000A5BFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */,
 				7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */,
 				FC411F561DC7D27000A5BFEE /* Assets.xcassets */,
+				FC1257621DD927D1000FCEC7 /* Images.xcassets */,
 				FC411F581DC7D27000A5BFEE /* LaunchScreen.storyboard */,
 				FC411F5B1DC7D27000A5BFEE /* Info.plist */,
 			);
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC411F5A1DC7D27000A5BFEE /* LaunchScreen.storyboard in Resources */,
+				FC1257631DD927D1000FCEC7 /* Images.xcassets in Resources */,
 				FC411F571DC7D27000A5BFEE /* Assets.xcassets in Resources */,
 				FC411F551DC7D27000A5BFEE /* Main.storyboard in Resources */,
 			);
