@@ -107,7 +107,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" selectedImage="discover" id="5I4-QN-bhl"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="discover" selectedImage="discover" id="5I4-QN-bhl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGW-iZ-gsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,7 +140,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="search" id="bi6-YG-Dpx"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="search" selectedImage="search" id="bi6-YG-Dpx"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzL-yg-MEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -261,7 +261,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" selectedImage="home" id="bbD-w7-eoX"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="home" selectedImage="home" id="bbD-w7-eoX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lu2-6x-73f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
