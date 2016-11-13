@@ -51,7 +51,7 @@ class EventTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Table view cells are reused and should be dequeued using a cell identifier.
-        let cellIdentifier = "MealTableViewCell"
+        let cellIdentifier = "EventTableViewCell"
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! EventTableViewCell
         
