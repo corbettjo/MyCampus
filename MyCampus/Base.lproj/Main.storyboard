@@ -43,7 +43,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DaL-GT-DxD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="DaL-GT-DxD">
                                 <rect key="frame" x="123" y="135" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -107,7 +107,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="5I4-QN-bhl"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" selectedImage="discover" id="5I4-QN-bhl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGW-iZ-gsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,7 +140,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bi6-YG-Dpx"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="search" id="bi6-YG-Dpx"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzL-yg-MEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -206,7 +206,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="bbD-w7-eoX"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="home" id="bbD-w7-eoX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lu2-6x-73f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -232,4 +232,10 @@
             <point key="canvasLocation" x="-860" y="-546"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="discover" width="30" height="30"/>
+        <image name="home" width="30" height="30"/>
+        <image name="logo" width="3780" height="3780"/>
+        <image name="search" width="28" height="28"/>
+    </resources>
 </document>
