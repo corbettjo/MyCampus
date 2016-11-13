@@ -18,21 +18,18 @@ class EventTableViewController: UITableViewController {
         super.viewDidLoad()
 
         // Load the sample data.
-        loadSampleMeals()
+        loadSampleEvents()
     }
     
     func loadSampleEvents() {
         
-        let photo1 = UIImage(named: "meal1")!
-        let event1 = Meal(name: "Caprese Salad", photo: photo1, rating: 4)!
+        let event1 = Event(name: "Carseat Headrest", photo: "carseat", price: "$7.00", day: 23, month: "November", description: "Come hear this American indie rock band originally from Leesburg, Virginia. They are currently based out of Seattle, Washington.", location: "AfterHours", time: "7:00pm", icon: "concert")
         
-        let photo2 = UIImage(named: "meal2")!
-        let event2 = Meal(name: "Chicken and Potatoes", photo: photo2, rating: 5)!
+        let event2 = Event(name: "Chinese Student Association Info Session", photo: "csa", price:"free!", day: 25, month:"November", description:"Come meet the members of our club and learn about our events.", location:"Curry Student Center", time:"6:00pm", icon:"talk")
         
-        let photo3 = UIImage(named: "meal3")!
-        let event3 = Meal(name: "Pasta with Meatballs", photo: photo3, rating: 3)!
+        let event3 = Event(name: "NU Hockey vs BU", photo: "hockey", price:"free for students!", day: 29, month:"October", description:"Come join your fellow huckies root against the Terrires in the dog house! It'll be paws-itively awesome! :-)", location:"Matthew's Arena", time:"7:00pm", icon:"sport")
         
-        events += [meal1, meal2, meal3]
+        events += [event1, event2, event3]
         
     }
 
@@ -56,17 +53,17 @@ class EventTableViewController: UITableViewController {
         // Table view cells are reused and should be dequeued using a cell identifier.
         let cellIdentifier = "MealTableViewCell"
         
-        let cell = tableView.dequeueReusableCell(cellIdentifier, for: indexPath) as! MealTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! EventTableViewCell
         
         // Fetches the appropriate meal for the data source layout.
-        let meal = events[indexPath.row]
+        let event = events[indexPath.row]
 
         // Configure the cell...
         cell.nameLabel.text = event.name
-        cell.priceLabel.text = "$" + event.price
+        cell.priceLabel.text = event.price
         cell.monthLabel.text = event.month
-        cell.dayLabel.text = event.day
-        cell.iconImageView.image = event.icon
+        cell.dayLabel.text = String(event.day)
+        //cell.iconImageView.image = event.icon
         
 
         
