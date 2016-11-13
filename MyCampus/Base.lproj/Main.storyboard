@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11760" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ccw-19-jLn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ccw-19-jLn">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -104,7 +104,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="5I4-QN-bhl"/>
+                    <tabBarItem key="tabBarItem" title="Discover" id="5I4-QN-bhl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGW-iZ-gsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -137,7 +137,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bi6-YG-Dpx"/>
+                    <tabBarItem key="tabBarItem" title="Search" id="bi6-YG-Dpx"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzL-yg-MEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -172,7 +172,7 @@
                                         <rect key="frame" x="0.0" y="28" width="315" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IkO-0g-eld" id="pRF-YX-ttY">
-                                            <rect key="frame" x="0.0" y="0.0" width="315" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="315" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -187,7 +187,7 @@
                                         <rect key="frame" x="0.0" y="28" width="307" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Y8-qt-zCk" id="2rt-dS-4pG">
-                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="307" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -203,7 +203,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="bbD-w7-eoX"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="bbD-w7-eoX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lu2-6x-73f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
