@@ -55,7 +55,7 @@ class EventTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! EventTableViewCell
         
-        // Fetches the appropriate meal for the data source layout.
+        // Fetches the appropriate event for the data source layout.
         let event = events[indexPath.row]
 
         // Configure the cell...
