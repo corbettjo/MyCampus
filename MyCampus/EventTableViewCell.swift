@@ -26,4 +26,6 @@ class EventTableViewCell: UITableViewCell {
     @IBOutlet weak var monthLabel: UILabel!
     @IBOutlet weak var dayLabel: UILabel!
     @IBOutlet weak var iconImageView: UIImageView!
+    
+    
 }
