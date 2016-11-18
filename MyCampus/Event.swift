@@ -18,10 +18,10 @@ class Event {
     var description: String
     var location: String
     var time: String
-    var icon: String //UIImage?
+    var icon = [String]()
     
     //MARK: Initilization
-    init(name: String, photo: String, price: String, day: Int, month: String, description: String, location: String, time: String, icon: String) {
+    init(name: String, photo: String, price: String, day: Int, month: String, description: String, location: String, time: String, icon: [String]) {
         //Initialize stored properties 
         self.name = name;
         self.photo = photo;
