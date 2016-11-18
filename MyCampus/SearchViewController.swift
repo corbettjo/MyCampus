@@ -11,14 +11,15 @@ import UIKit
 class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tbleSearchResults: UITableView!
-    var model = MyCamusModel()
+    //var model = demo.getModel()
+    //var model = modelDemo
     var dataArray = [Event]()
     var filteredArray = [Event]()
     var shouldShowSearchResults = false
     var searchController = UISearchController(searchResultsController: nil)
     
     func loadListOfEvents() {
-        dataArray = model.getEvents()
+        dataArray = modelDemo.getEvents()
         
         tbleSearchResults.reloadData()
     }

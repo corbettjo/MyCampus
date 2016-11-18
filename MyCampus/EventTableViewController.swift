@@ -12,26 +12,13 @@ class EventTableViewController: UITableViewController {
     
     // MARK: Properties
     
-    var events = [Event]()
+    var events = modelDemo.getEvents()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Load the sample data.
-        loadSampleEvents()
     }
     
-    func loadSampleEvents() {
-        
-        let event1 = Event(name: "Carseat Headrest", photo: "carseat", price: "$7.00", day: 23, month: "November", description: "Come hear this American indie rock band originally from Leesburg, Virginia. They are currently based out of Seattle, Washington.", location: "AfterHours", time: "7:00pm", icon: "concert")
-        
-        let event2 = Event(name: "Chinese Student Association Info Session", photo: "csa", price:"free!", day: 25, month:"November", description:"Come meet the members of our club and learn about our events.", location:"Curry Student Center", time:"6:00pm", icon:"talk")
-        
-        let event3 = Event(name: "NU Hockey vs BU", photo: "hockey", price:"free for students!", day: 29, month:"October", description:"Come join your fellow huckies root against the Terrires in the dog house! It'll be paws-itively awesome! :-)", location:"Matthew's Arena", time:"7:00pm", icon:"sport")
-        
-        events += [event1, event2, event3]
-        
-    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -106,14 +93,20 @@ class EventTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if (segue.identifier == "EventPage") {
+            if let svc = segue.destination as? EventViewController {
+                svc.event = self.events[1] //?????
+            }
     }
-    */
+ 
 
+}
 }

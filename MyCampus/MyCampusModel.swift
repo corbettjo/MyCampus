@@ -8,9 +8,12 @@
 
 import Foundation
 
+ var modelDemo = MyCamusModel();
+
 class MyCamusModel {
     //MARK: Properties 
     var events = [Event]()
+    var going = [Event]()
     
     let carseatHeadrest = Event(name: "Carseat Headrest", photo: "carseat", price: "$7.00", day: 23, month: "November", description: "Come hear this American indie rock band originally from Leesburg, Virginia. They are currently based out of Seattle, Washington.", location: "AfterHours", time: "7:00pm", icon: "concert")
     
@@ -27,6 +30,10 @@ class MyCamusModel {
     
     public func getEvents() -> [Event] {
         return events
+    }
+    
+    public func goingTo(goEvent: Int) -> Void {
+        going.append(events.remove(at: goEvent))
     }
     
     

@@ -10,21 +10,32 @@ import UIKit
 
 class EventViewController: UIViewController {
     
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var monthLabel: UILabel!
+    @IBOutlet weak var dayLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
+    var event: Event!
 
     override func viewDidLoad() {
         super.viewDidLoad();
         
-        self.title = "home";
+        self.title = "Event";
+    
         
-        let event = Event(name: "Carseat Headrest", photo: "carseat", price: "$7.00", day: 23, month: "November", description: "Come hear this American indie rock band originally from Leesburg, Virginia. They are currently based out of Seattle, Washington.", location: "AfterHours", time: "7:00pm", icon: "concert");
+        //let event = modelDemo.getEvents()
         
         //
-//        view.nameLabel.text = event.name;
-//        view.monthLabel.text = event.month;
-//        view.dayLabel.text = String(event.day);
-//        view.timeLabel.text = event.time;
-//        view.locationLabel.text = event.location;
-//        view.priceLabel.text = event.price;
+        nameLabel.text = event.name;
+        monthLabel.text = event.month;
+        dayLabel.text = String(event.day);
+        timeLabel.text = event.time;
+        locationLabel.text = event.location;
+        priceLabel.text = event.price;
         
         // Do any additional setup after loading the view.
     }
@@ -34,7 +45,7 @@ class EventViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    
+
 /*
     
     // MARK: - Navigation
@@ -45,7 +56,7 @@ class EventViewController: UIViewController {
         // Pass the selected object to the new view controller.
      
            }
- */
-    
+ 
+  */  
 
-}
+ }
