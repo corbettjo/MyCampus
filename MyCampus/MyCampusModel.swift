@@ -35,7 +35,14 @@ class MyCampusModel {
     
     let bbq = Event(name: "Computer Science Barbeque", photo: "volunteer", price: "free for students!", day: 20, month: "November", description: "Stop by Centennial Quad for a free barbeque before Thanksgiving break!", location: "Centennial Quad", time: "6:00", icon: "food")
     
-    let romeo = Event(name: "Romeo and Juliet", photo: "romeo", price: "free for students!", day: 19, month: "November", description: "Stop by Centennial Quad for a free barbeque before Thanksgiving break!", location: "Ryder 340", time: "7:00", icon: "food")
+    let romeo = Event(name: "Romeo and Juliet", photo: "romeo", price: "free for students!", day: 19, month: "November", description: "Stop by Centennial Quad for a free barbeque before Thanksgiving break!", location: "Ryder 340", time: "7:00", icon: "permormance")
+    
+    let midnight = Event(name: "Midnight Breakfast", photo: "midnight", price: "free for students!", day: 8, month: "December", description: "Take a break from finals and enjoy the annual Midnight Breakfast in Levine Marketplace", location: "Levine Marketplace", time: "10:00", icon: "free")
+    
+    let breakfast = Event(name: "Midnight Breakfast", photo: "midnight", price: "free for students!", day: 8, month: "December", description: "Take a break from finals and enjoy the annual Midnight Breakfast in Levine Marketplace", location: "Levine Marketplace", time: "10:00", icon: "food")
+    
+    let strange = Event(name: "Viewing of Doctor Strange", photo: "strange", price "free for students!", day: 22, month: "November", description: "Watch Doctor Strange in Centennial Quad", location: "Centennial Quad", time: "8:00", icon "video")
+    
 
     
     
