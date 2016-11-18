@@ -56,6 +56,9 @@ class MyCampusModel {
         events.append(volunteer)
         events.append(bbq)
         events.append(romeo)
+        events.append(midnight)
+        events.append(strange)
+        events.append(art)
     }
     
     public func getEvents() -> [Event] {
