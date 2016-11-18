@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11760" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -56,6 +56,23 @@
             <point key="canvasLocation" x="-1863" y="-546"/>
         </scene>
         <!--Search-->
+        <scene sceneID="RHY-M9-xKt">
+            <objects>
+                <navigationController id="HeA-Ei-p98" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="search" selectedImage="search" id="acY-IT-bIT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eXg-FR-R2D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ouo-Dp-abK" kind="relationship" relationship="rootViewController" id="C51-t0-uwD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yzc-s9-65l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="426"/>
+        </scene>
+        <!--Search-->
         <scene sceneID="T0P-7x-G21">
             <objects>
                 <viewController title="Search" id="Ouo-Dp-abK" customClass="SearchViewController" customModule="MyCampus" customModuleProvider="target" sceneMemberID="viewController">
@@ -83,7 +100,7 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Search" image="search" id="f13-Py-ehV"/>
+                    <navigationItem key="navigationItem" id="7yb-vJ-XYC"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tbleSearchResults" destination="eVR-nM-opV" id="Q7i-Uj-CRE"/>
@@ -91,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJN-Le-eou" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15" y="480"/>
+            <point key="canvasLocation" x="1583" y="426"/>
         </scene>
         <!--Event Table View Controller-->
         <scene sceneID="T9E-fi-IJ8">
@@ -161,7 +178,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCy-Sp-tTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2626" y="-2056"/>
+            <point key="canvasLocation" x="2473" y="-2063"/>
         </scene>
         <!--Home-->
         <scene sceneID="4xm-pF-oLU">
@@ -223,8 +240,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="14m-pw-Ic0" kind="relationship" relationship="viewControllers" id="yj1-Vv-gOo"/>
-                        <segue destination="4QB-Dn-gQq" kind="relationship" relationship="viewControllers" id="mxS-3o-kNH"/>
-                        <segue destination="Ouo-Dp-abK" kind="relationship" relationship="viewControllers" id="hXw-hn-wbG"/>
+                        <segue destination="Kod-Vr-mue" kind="relationship" relationship="viewControllers" id="0hx-ib-Hm3"/>
+                        <segue destination="HeA-Ei-p98" kind="relationship" relationship="viewControllers" id="k58-kj-vVf"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="owN-Jd-raC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -232,10 +249,27 @@
             <point key="canvasLocation" x="-874" y="-563"/>
         </scene>
         <!--Discover-->
+        <scene sceneID="WQL-1J-zao">
+            <objects>
+                <navigationController id="Kod-Vr-mue" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Discover" image="discover" selectedImage="discover" id="qej-y8-0JL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="66K-O2-Gc5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4QB-Dn-gQq" kind="relationship" relationship="rootViewController" id="oFa-Xd-Ppt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8uK-Jh-Buu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="-414"/>
+        </scene>
+        <!--Category Collection View Controller-->
         <scene sceneID="w1D-2q-J0d">
             <objects>
                 <collectionViewController id="4QB-Dn-gQq" customClass="CategoryCollectionViewController" customModule="MyCampus" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="krG-EU-BjY">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="krG-EU-BjY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -261,6 +295,7 @@
                                 </view>
                                 <connections>
                                     <outlet property="imageView" destination="LBx-N8-eHA" id="Qlq-im-Mri"/>
+                                    <segue destination="jGH-lE-2Ez" kind="show" id="OWP-re-4G0"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -269,11 +304,39 @@
                             <outlet property="delegate" destination="4QB-Dn-gQq" id="shH-qO-i3d"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Discover" image="discover" id="bSm-fC-bwM"/>
+                    <navigationItem key="navigationItem" id="41c-7S-n2p"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PEh-ey-ocH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="368.80000000000001" y="-369.26536731634184"/>
+            <point key="canvasLocation" x="1561" y="-414"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="i5o-Uf-sWa">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vlY-MJ-rOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="jGH-lE-2Ez" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="gbf-Fo-Q7s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="cTK-tU-e5v">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cTK-tU-e5v" id="dp0-VE-gGG">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jGH-lE-2Ez" id="ah9-vf-fp1"/>
+                            <outlet property="delegate" destination="jGH-lE-2Ez" id="ape-zN-QsM"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="2474" y="-414"/>
         </scene>
         <!--Item-->
         <scene sceneID="bqS-DV-iYD">
@@ -344,7 +407,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqD-Z2-Zrn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2550" y="-846"/>
+            <point key="canvasLocation" x="2450" y="-1106"/>
         </scene>
         <!--Event View Controller-->
         <scene sceneID="R3d-iR-8tp">
@@ -568,7 +631,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyv-Zl-VBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2550" y="-1370"/>
+            <point key="canvasLocation" x="2450" y="-1504"/>
         </scene>
     </scenes>
     <resources>
@@ -578,6 +641,6 @@
         <image name="search" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Pv5-kY-jul"/>
+        <segue reference="Ax7-dm-qPJ"/>
     </inferredMetricsTieBreakers>
 </document>
