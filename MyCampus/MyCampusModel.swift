@@ -35,7 +35,7 @@ class MyCampusModel {
     
     let basketball = Event(name: "NU Basketball vs BU", photo: "basketball", price: "free for students!", day: 2, month: "February", description: "Come join your fellow huskies root agains the Wildcats in the Dog House! It'll be paws-itively awesome! :)", location: "Matthews Arena", time: "7:00pm", icon: ["sports", "free"])
     
-    let scout = Event(name: "Meet Scout", photo: "scout", price: "free for students!", day: 7, month: "February", description: "Interested in design and development? Meet the members of Scout!", location: "Ryder 375", time: "8:00", icon: ["club", "free"])
+    let scout = Event(name: "Meet Scout", photo: "scout", price: "free for students!", day: 7, month: "February", description: "Interested in design and development? Meet the members of Scout!", location: "Ryder 375", time: "8:00", icon: ["clubs", "free"])
     
     let volunteer = Event(name: "Volunteer with Northeastern", photo: "volunteer", price: "free", day: 12, month: "December", description: "Take a break from finals and volunteer during the Christmas season", location: "Centennial Quad", time: "8:00", icon: ["community", "free"])
     
@@ -47,7 +47,7 @@ class MyCampusModel {
     
     let strange = Event(name: "Viewing of Doctor Strange", photo: "strange", price: "free for students!", day: 22, month: "November", description: "Watch Doctor Strange in Centennial Quad", location: "Centennial Quad", time: "8:00", icon: ["video", "free"])
     
-    let art = Event(name: "Painting with RSA", photo: "rsa", price: "free for students!", day: 18, month: "November", description: "Bring a friend and compete for the best landscape painting!", location: "Ryder 403", time: "5:00", icon: ["free", "fineArts"])
+    let art = Event(name: "Painting with RSA", photo: "rsa", price: "free for students!", day: 18, month: "November", description: "Bring a friend and compete for the best landscape painting!", location: "Ryder 403", time: "5:00", icon: ["fineArts", "free"])
     
     init() {
         events.append(carseatHeadrest)
