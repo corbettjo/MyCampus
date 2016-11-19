@@ -29,7 +29,6 @@ class EventViewController: UIViewController {
         
         //let event = modelDemo.getEvents()
         
-        //
         nameLabel.text = event.name;
         monthLabel.text = event.month;
         dayLabel.text = String(event.day);

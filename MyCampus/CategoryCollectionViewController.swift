@@ -19,7 +19,7 @@ class CategoryCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        categoryImages = ["free", "Clubs", "Music", "Sports", "Performance", "FineArts", "Community", "Video", "Food"]
+        categoryImages = ["free", "clubs", "music", "sports", "performance", "fineArts", "community", "video", "food"]
     }
 
     override func didReceiveMemoryWarning() {
