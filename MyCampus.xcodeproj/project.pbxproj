@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D48504B1DDFDAFC00F8075F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4850421DDFDAFC00F8075F /* Assets.xcassets */; };
+		7D48504C1DDFDAFC00F8075F /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7D4850431DDFDAFC00F8075F /* Base.lproj */; };
+		7D48504D1DDFDAFC00F8075F /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850441DDFDAFC00F8075F /* CategoryCollectionViewController.swift */; };
+		7D48504E1DDFDAFC00F8075F /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850451DDFDAFC00F8075F /* demo.swift */; };
+		7D48504F1DDFDAFC00F8075F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4850461DDFDAFC00F8075F /* Images.xcassets */; };
+		7D4850501DDFDAFC00F8075F /* MyCampusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850471DDFDAFC00F8075F /* MyCampusModel.swift */; };
+		7D4850511DDFDAFC00F8075F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850481DDFDAFC00F8075F /* MyCollectionViewCell.swift */; };
+		7D4850521DDFDAFC00F8075F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850491DDFDAFC00F8075F /* SearchViewController.swift */; };
+		7D4850531DDFDAFC00F8075F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D48504A1DDFDAFC00F8075F /* SplashViewController.swift */; };
 		7D97B6101DD92C1B009F749C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97B60F1DD92C1B009F749C /* EventViewController.swift */; };
 		7D97B6121DD92E36009F749C /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97B6111DD92E36009F749C /* EventView.swift */; };
 		7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */; };
@@ -32,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D4850421DDFDAFC00F8075F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D4850431DDFDAFC00F8075F /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		7D4850441DDFDAFC00F8075F /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		7D4850451DDFDAFC00F8075F /* demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = demo.swift; sourceTree = "<group>"; };
+		7D4850461DDFDAFC00F8075F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D4850471DDFDAFC00F8075F /* MyCampusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCampusModel.swift; sourceTree = "<group>"; };
+		7D4850481DDFDAFC00F8075F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D4850491DDFDAFC00F8075F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7D48504A1DDFDAFC00F8075F /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		7D97B60F1DD92C1B009F749C /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		7D97B6111DD92E36009F749C /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
@@ -94,6 +112,15 @@
 				FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */,
 				FC411F511DC7D27000A5BFEE /* ViewController.swift */,
 				FC411F531DC7D27000A5BFEE /* Main.storyboard */,
+				7D4850421DDFDAFC00F8075F /* Assets.xcassets */,
+				7D4850431DDFDAFC00F8075F /* Base.lproj */,
+				7D4850441DDFDAFC00F8075F /* CategoryCollectionViewController.swift */,
+				7D4850451DDFDAFC00F8075F /* demo.swift */,
+				7D4850461DDFDAFC00F8075F /* Images.xcassets */,
+				7D4850471DDFDAFC00F8075F /* MyCampusModel.swift */,
+				7D4850481DDFDAFC00F8075F /* MyCollectionViewCell.swift */,
+				7D4850491DDFDAFC00F8075F /* SearchViewController.swift */,
+				7D48504A1DDFDAFC00F8075F /* SplashViewController.swift */,
 				7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */,
 				7D97B60F1DD92C1B009F749C /* EventViewController.swift */,
 				7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */,
@@ -199,8 +226,11 @@
 			files = (
 				FC411F5A1DC7D27000A5BFEE /* LaunchScreen.storyboard in Resources */,
 				FC1257651DD92BBB000FCEC7 /* Images.xcassets in Resources */,
+				7D48504F1DDFDAFC00F8075F /* Images.xcassets in Resources */,
 				FC411F571DC7D27000A5BFEE /* Assets.xcassets in Resources */,
 				FC411F551DC7D27000A5BFEE /* Main.storyboard in Resources */,
+				7D48504C1DDFDAFC00F8075F /* Base.lproj in Resources */,
+				7D48504B1DDFDAFC00F8075F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +248,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4850511DDFDAFC00F8075F /* MyCollectionViewCell.swift in Sources */,
 				7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */,
 				7D97B6121DD92E36009F749C /* EventView.swift in Sources */,
+				7D48504E1DDFDAFC00F8075F /* demo.swift in Sources */,
+				7D48504D1DDFDAFC00F8075F /* CategoryCollectionViewController.swift in Sources */,
 				FC411F521DC7D27000A5BFEE /* ViewController.swift in Sources */,
+				7D4850531DDFDAFC00F8075F /* SplashViewController.swift in Sources */,
+				7D4850521DDFDAFC00F8075F /* SearchViewController.swift in Sources */,
 				7DEF74201DD8F1EA009A8865 /* EventTableViewController.swift in Sources */,
 				FC411F501DC7D27000A5BFEE /* AppDelegate.swift in Sources */,
 				7DEF74221DD90143009A8865 /* Event.swift in Sources */,
+				7D4850501DDFDAFC00F8075F /* MyCampusModel.swift in Sources */,
 				7D97B6101DD92C1B009F749C /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
