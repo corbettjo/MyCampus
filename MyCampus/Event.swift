@@ -19,6 +19,7 @@ class Event {
     var location: String
     var time: String
     var icon: String //UIImage?
+    var going : Bool
     
     //MARK: Initilization
     init(name: String, photo: String, price: String, day: Int, month: String, description: String, location: String, time: String, icon: String) {
@@ -32,5 +33,12 @@ class Event {
         self.location = location;
         self.time = time;
         self.icon = icon;
+        self.going = false;
+    }
+}
+
+extension Event: Equatable {
+    static func ==(lhs: Event, rhs: Event) -> Bool {
+        return lhs.name == rhs.name
     }
 }

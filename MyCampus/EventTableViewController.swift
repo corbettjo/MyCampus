@@ -10,15 +10,24 @@ import UIKit
 
 class EventTableViewController: UITableViewController {
     
+    var events = modelDemo.getEvents();
+    
     // MARK: Properties
     
-    var events = modelDemo.getEvents()
+    func getEventData() {
+         self.events = modelDemo.getEvents()
+    }
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
+        getEventData();
     }
     
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated);
+        getEventData();
+        self.tableView.reloadData();
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -55,6 +64,11 @@ class EventTableViewController: UITableViewController {
 
         
         return cell
+    }
+    
+     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let event = events[indexPath.row]
+        selectedEvent = event
     }
     
 

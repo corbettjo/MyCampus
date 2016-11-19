@@ -18,24 +18,35 @@ class EventViewController: UIViewController {
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var goingButton: UIButton!
     
     var event: Event!
 
     override func viewDidLoad() {
         super.viewDidLoad();
-        
         self.title = "Event";
+        self.event = selectedEvent;
     
         
         //let event = modelDemo.getEvents()
-        
-        //
+        //who are we?
+
         nameLabel.text = event.name;
         monthLabel.text = event.month;
         dayLabel.text = String(event.day);
         timeLabel.text = event.time;
         locationLabel.text = event.location;
         priceLabel.text = event.price;
+        
+        if(self.event.going) {
+            goingButton.setTitle("Cancel", for: .normal)
+        }
+        else {
+            goingButton.setTitle("Mark as Going", for: .normal)
+        }
+        
+
         
         // Do any additional setup after loading the view.
     }
@@ -58,5 +69,15 @@ class EventViewController: UIViewController {
            }
  
   */  
+    @IBAction func goingAction(_ sender: Any) {
+        modelDemo.goingTo(goEvent: self.event)
+        if(self.event.going) {
+            goingButton.setTitle("Cancel", for: .normal)
+        }
+        else {
+            goingButton.setTitle("Mark as Going", for: .normal)
+        }
+        
+    }
 
  }
