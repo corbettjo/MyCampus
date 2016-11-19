@@ -19,6 +19,12 @@
 		FC411F571DC7D27000A5BFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC411F561DC7D27000A5BFEE /* Assets.xcassets */; };
 		FC411F5A1DC7D27000A5BFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC411F581DC7D27000A5BFEE /* LaunchScreen.storyboard */; };
 		FC411F651DC7D27000A5BFEE /* MyCampusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F641DC7D27000A5BFEE /* MyCampusTests.swift */; };
+		FC9C92C71DDFD05500073645 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C92C11DDFD05500073645 /* CategoryCollectionViewController.swift */; };
+		FC9C92C81DDFD05500073645 /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C92C21DDFD05500073645 /* demo.swift */; };
+		FC9C92C91DDFD05500073645 /* MyCampusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C92C31DDFD05500073645 /* MyCampusModel.swift */; };
+		FC9C92CA1DDFD05500073645 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C92C41DDFD05500073645 /* MyCollectionViewCell.swift */; };
+		FC9C92CB1DDFD05500073645 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C92C51DDFD05500073645 /* SearchViewController.swift */; };
+		FC9C92CC1DDFD05500073645 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C92C61DDFD05500073645 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,12 @@
 		FC411F601DC7D27000A5BFEE /* MyCampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC411F641DC7D27000A5BFEE /* MyCampusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCampusTests.swift; sourceTree = "<group>"; };
 		FC411F661DC7D27000A5BFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9C92C11DDFD05500073645 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCollectionViewController.swift; path = MyCampus/CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		FC9C92C21DDFD05500073645 /* demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = demo.swift; path = MyCampus/demo.swift; sourceTree = "<group>"; };
+		FC9C92C31DDFD05500073645 /* MyCampusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCampusModel.swift; path = MyCampus/MyCampusModel.swift; sourceTree = "<group>"; };
+		FC9C92C41DDFD05500073645 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCollectionViewCell.swift; path = MyCampus/MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC9C92C51DDFD05500073645 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = MyCampus/SearchViewController.swift; sourceTree = "<group>"; };
+		FC9C92C61DDFD05500073645 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = MyCampus/SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,12 @@
 		FC411F431DC7D27000A5BFEE = {
 			isa = PBXGroup;
 			children = (
+				FC9C92C11DDFD05500073645 /* CategoryCollectionViewController.swift */,
+				FC9C92C21DDFD05500073645 /* demo.swift */,
+				FC9C92C31DDFD05500073645 /* MyCampusModel.swift */,
+				FC9C92C41DDFD05500073645 /* MyCollectionViewCell.swift */,
+				FC9C92C51DDFD05500073645 /* SearchViewController.swift */,
+				FC9C92C61DDFD05500073645 /* SplashViewController.swift */,
 				FC1257641DD92BBB000FCEC7 /* Images.xcassets */,
 				FC411F4E1DC7D27000A5BFEE /* MyCampus */,
 				FC411F631DC7D27000A5BFEE /* MyCampusTests */,
@@ -218,12 +236,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9C92CA1DDFD05500073645 /* MyCollectionViewCell.swift in Sources */,
 				7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */,
 				7D97B6121DD92E36009F749C /* EventView.swift in Sources */,
+				FC9C92C81DDFD05500073645 /* demo.swift in Sources */,
+				FC9C92C71DDFD05500073645 /* CategoryCollectionViewController.swift in Sources */,
 				FC411F521DC7D27000A5BFEE /* ViewController.swift in Sources */,
+				FC9C92CC1DDFD05500073645 /* SplashViewController.swift in Sources */,
+				FC9C92CB1DDFD05500073645 /* SearchViewController.swift in Sources */,
 				7DEF74201DD8F1EA009A8865 /* EventTableViewController.swift in Sources */,
 				FC411F501DC7D27000A5BFEE /* AppDelegate.swift in Sources */,
 				7DEF74221DD90143009A8865 /* Event.swift in Sources */,
+				FC9C92C91DDFD05500073645 /* MyCampusModel.swift in Sources */,
 				7D97B6101DD92C1B009F749C /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
