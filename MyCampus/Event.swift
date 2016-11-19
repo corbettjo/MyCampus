@@ -18,6 +18,7 @@ class Event {
     var description: String
     var location: String
     var time: String
+    var going : Bool
     var icon = [String]()
     
     //MARK: Initilization
@@ -32,5 +33,12 @@ class Event {
         self.location = location;
         self.time = time;
         self.icon = icon;
+        self.going = false;
+    }
+}
+
+extension Event: Equatable {
+    static func ==(lhs: Event, rhs: Event) -> Bool {
+        return lhs.name == rhs.name
     }
 }

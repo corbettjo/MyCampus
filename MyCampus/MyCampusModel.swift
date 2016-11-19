@@ -8,7 +8,9 @@
 
 import Foundation
 
- var modelDemo = MyCampusModel();
+
+var modelDemo = MyCamusModel();
+var selectedEvent = Event(name: "NIL VERSION: Carseat Headrest", photo: "carseat", price: "$7.00", day: 23, month: "November", description: "Come hear this American indie rock band originally from Leesburg, Virginia. They are currently based out of Seattle, Washington.", location: "AfterHours", time: "7:00pm", icon: "concert")
 
 class MyCampusModel {
     //MARK: Properties 
@@ -65,9 +67,18 @@ class MyCampusModel {
         return events
     }
     
-    public func goingTo(goEvent: Int) -> Void {
-        going.append(events.remove(at: goEvent))
+    public func getGoing() -> [Event] {
+        return going
     }
     
-    
+    public func goingTo(goEvent: Event) -> Void {
+        goEvent.going = !goEvent.going;
+        if(goEvent.going) {
+            going.append(goEvent)
+            print(going)
+        }
+        else {
+            let indexRemove = going.index(of: goEvent);
+            going.remove(at: indexRemove!); }
+    }
 }
