@@ -199,7 +199,7 @@
 				TargetAttributes = {
 					FC411F4B1DC7D27000A5BFEE = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 358QD9LM95;
+						DevelopmentTeam = 2HJ7P5WJ55;
 						ProvisioningStyle = Automatic;
 					};
 					FC411F5F1DC7D27000A5BFEE = {
@@ -410,10 +410,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 358QD9LM95;
+				DEVELOPMENT_TEAM = 2HJ7P5WJ55;
 				INFOPLIST_FILE = MyCampus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyCampus1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyCampus2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -423,10 +424,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 358QD9LM95;
+				DEVELOPMENT_TEAM = 2HJ7P5WJ55;
 				INFOPLIST_FILE = MyCampus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyCampus1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyCampus2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
