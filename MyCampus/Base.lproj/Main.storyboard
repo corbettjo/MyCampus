@@ -388,6 +388,7 @@
                                     <outlet property="monthLabel" destination="bKa-wS-2Xz" id="f44-tq-6OF"/>
                                     <outlet property="nameLabel" destination="fjy-kk-chH" id="dAE-kH-R45"/>
                                     <outlet property="priceLabel" destination="IcN-DA-Sub" id="PI7-8P-C8r"/>
+                                    <segue destination="d5M-Fe-mvK" kind="show" id="u3j-Zi-53S"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -750,6 +751,6 @@
         <image name="search" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ax7-dm-qPJ"/>
+        <segue reference="u3j-Zi-53S"/>
     </inferredMetricsTieBreakers>
 </document>
