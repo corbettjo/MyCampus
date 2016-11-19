@@ -22,6 +22,7 @@
 		7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */; };
 		7DEF74201DD8F1EA009A8865 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */; };
 		7DEF74221DD90143009A8865 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF74211DD90143009A8865 /* Event.swift */; };
+		9876177A1DE00A3D00F2D93D /* CatagoryEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987617791DE00A3D00F2D93D /* CatagoryEventTableViewController.swift */; };
 		FC1257651DD92BBB000FCEC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1257641DD92BBB000FCEC7 /* Images.xcassets */; };
 		FC411F501DC7D27000A5BFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */; };
 		FC411F521DC7D27000A5BFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F511DC7D27000A5BFEE /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 		7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 		7DEF74211DD90143009A8865 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		987617791DE00A3D00F2D93D /* CatagoryEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatagoryEventTableViewController.swift; path = ../CatagoryEventTableViewController.swift; sourceTree = "<group>"; };
 		98CB672B1DDCF33500F9FBF7 /* MyCampusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCampusModel.swift; sourceTree = "<group>"; };
 		FC1257641DD92BBB000FCEC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyCampus/Images.xcassets; sourceTree = "<group>"; };
 		FC411F4C1DC7D27000A5BFEE /* MyCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 		FC411F4E1DC7D27000A5BFEE /* MyCampus */ = {
 			isa = PBXGroup;
 			children = (
+				987617791DE00A3D00F2D93D /* CatagoryEventTableViewController.swift */,
 				7DEF74211DD90143009A8865 /* Event.swift */,
 				98CB672B1DDCF33500F9FBF7 /* MyCampusModel.swift */,
 				FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */,
@@ -258,6 +261,7 @@
 				7D4850551DDFF14F00F8075F /* GoingEventTableViewController.swift in Sources */,
 				7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */,
 				7D97B6121DD92E36009F749C /* EventView.swift in Sources */,
+				9876177A1DE00A3D00F2D93D /* CatagoryEventTableViewController.swift in Sources */,
 				7D48504E1DDFDAFC00F8075F /* demo.swift in Sources */,
 				7D48504D1DDFDAFC00F8075F /* CategoryCollectionViewController.swift in Sources */,
 				FC411F521DC7D27000A5BFEE /* ViewController.swift in Sources */,
