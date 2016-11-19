@@ -13,13 +13,14 @@ private let reuseIdentifier = "MyCell"
 class CategoryCollectionViewController: UICollectionViewController {
     
     
-    
+    var titles = [String]()
     var categoryImages = [String]()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        categoryImages = ["free", "clubs", "music", "video", "sports", "food", "performance", "fineArts", "community"]
+        titles = ["sports", "clubs", "music", "video", "free", "food", "performance", "fineArts", "community"]
+        categoryImages = ["sports", "clubs", "music", "video", "free", "food", "performance", "fineArts", "community"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,6 +58,8 @@ class CategoryCollectionViewController: UICollectionViewController {
         // Configure the cell
         let image = UIImage(named: categoryImages[indexPath.row])
         cell.imageView.image = image
+        
+        cell.title.text = titles[indexPath.row]
     
         return cell
     }

@@ -11,6 +11,7 @@ import UIKit
 class EventTableViewController: UITableViewController {
     
     var events = modelDemo.getEvents();
+    var iconImages = [String]()
     
     // MARK: Properties
     
@@ -21,6 +22,8 @@ class EventTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         getEventData();
+        
+        iconImages = ["free", "clubs", "music", "video", "sports", "food", "performance", "fineArts", "community"]
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -53,18 +56,24 @@ class EventTableViewController: UITableViewController {
         
         // Fetches the appropriate event for the data source layout.
         let event = events[indexPath.row]
+        
+        let image = UIImage(named: event.icon[0])
 
         // Configure the cell...
         cell.nameLabel.text = event.name
         cell.priceLabel.text = event.price
         cell.monthLabel.text = event.month
         cell.dayLabel.text = String(event.day)
-        //cell.iconImageView.image = event.icon
-        
-
+        cell.iconImageView.image = image
+    
         
         return cell
     }
+    
+//    // Configure the cell
+//    let image = UIImage(named: categoryImages[indexPath.row])
+//    cell.imageView.image = image
+    
     
      override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let event = events[indexPath.row]

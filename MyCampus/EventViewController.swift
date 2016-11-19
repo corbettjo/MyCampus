@@ -11,6 +11,7 @@ import UIKit
 class EventViewController: UIViewController {
     
     
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var monthLabel: UILabel!
     @IBOutlet weak var dayLabel: UILabel!
@@ -21,7 +22,9 @@ class EventViewController: UIViewController {
     @IBOutlet weak var facebookButton: UIButton!
     @IBOutlet weak var goingButton: UIButton!
     
+    
     var event: Event!
+    var iconImages = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad();
@@ -45,9 +48,13 @@ class EventViewController: UIViewController {
             goingButton.setTitle("Mark as Going", for: .normal)
         }
         
-
+        iconImages = ["free", "clubs", "music", "video", "sports", "food", "performance", "fineArts", "community"]
         
+
         // Do any additional setup after loading the view.
+        let image = UIImage(named: event.icon[0])
+        imageView.image = image
+        
     }
     
     override func didReceiveMemoryWarning() {

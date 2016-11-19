@@ -25,5 +25,5 @@ class EventView: UIView {
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
-
+    @IBOutlet weak var imageView: UIImageView!
 }
