@@ -16,13 +16,12 @@
 		7D4850511DDFDAFC00F8075F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850481DDFDAFC00F8075F /* MyCollectionViewCell.swift */; };
 		7D4850521DDFDAFC00F8075F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850491DDFDAFC00F8075F /* SearchViewController.swift */; };
 		7D4850531DDFDAFC00F8075F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D48504A1DDFDAFC00F8075F /* SplashViewController.swift */; };
+		7D4850551DDFF14F00F8075F /* GoingEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850541DDFF14F00F8075F /* GoingEventTableViewController.swift */; };
 		7D97B6101DD92C1B009F749C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97B60F1DD92C1B009F749C /* EventViewController.swift */; };
 		7D97B6121DD92E36009F749C /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97B6111DD92E36009F749C /* EventView.swift */; };
 		7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */; };
 		7DEF74201DD8F1EA009A8865 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */; };
 		7DEF74221DD90143009A8865 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF74211DD90143009A8865 /* Event.swift */; };
-		98CB672C1DDCF33500F9FBF7 /* MyCampusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB672B1DDCF33500F9FBF7 /* MyCampusModel.swift */; };
-		98E53D281DDBCDC000BE58F1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E53D271DDBCDC000BE58F1 /* SearchViewController.swift */; };
 		FC1257651DD92BBB000FCEC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1257641DD92BBB000FCEC7 /* Images.xcassets */; };
 		FC411F501DC7D27000A5BFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */; };
 		FC411F521DC7D27000A5BFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC411F511DC7D27000A5BFEE /* ViewController.swift */; };
@@ -52,13 +51,13 @@
 		7D4850481DDFDAFC00F8075F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		7D4850491DDFDAFC00F8075F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		7D48504A1DDFDAFC00F8075F /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		7D4850541DDFF14F00F8075F /* GoingEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoingEventTableViewController.swift; sourceTree = "<group>"; };
 		7D97B60F1DD92C1B009F749C /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		7D97B6111DD92E36009F749C /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		7DEF741F1DD8F1EA009A8865 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 		7DEF74211DD90143009A8865 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		98CB672B1DDCF33500F9FBF7 /* MyCampusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCampusModel.swift; sourceTree = "<group>"; };
-		98E53D271DDBCDC000BE58F1 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FC1257641DD92BBB000FCEC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyCampus/Images.xcassets; sourceTree = "<group>"; };
 		FC411F4C1DC7D27000A5BFEE /* MyCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +116,7 @@
 				FC411F4F1DC7D27000A5BFEE /* AppDelegate.swift */,
 				FC411F511DC7D27000A5BFEE /* ViewController.swift */,
 				FC411F531DC7D27000A5BFEE /* Main.storyboard */,
+				7D4850541DDFF14F00F8075F /* GoingEventTableViewController.swift */,
 				7D4850421DDFDAFC00F8075F /* Assets.xcassets */,
 				7D4850431DDFDAFC00F8075F /* Base.lproj */,
 				7D4850441DDFDAFC00F8075F /* CategoryCollectionViewController.swift */,
@@ -254,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4850511DDFDAFC00F8075F /* MyCollectionViewCell.swift in Sources */,
+				7D4850551DDFF14F00F8075F /* GoingEventTableViewController.swift in Sources */,
 				7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */,
 				7D97B6121DD92E36009F749C /* EventView.swift in Sources */,
 				7D48504E1DDFDAFC00F8075F /* demo.swift in Sources */,
