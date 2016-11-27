@@ -23,6 +23,7 @@ class CatagoryEventTableViewController: EventTableViewController {
     
     override func getEventData() {
         self.events = modelDemo.getEvents(ofCategory: category)
+        self.title = category
     }
     
     

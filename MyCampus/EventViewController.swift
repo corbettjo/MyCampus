@@ -13,8 +13,7 @@ class EventViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var monthLabel: UILabel!
-    @IBOutlet weak var dayLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
@@ -27,19 +26,36 @@ class EventViewController: UIViewController {
     var iconImages = [String]()
 
     override func viewDidLoad() {
+        
         super.viewDidLoad();
+        
         self.title = "Event";
         self.event = selectedEvent;
     
-        
-        //let event = modelDemo.getEvents()
-        
         nameLabel.text = event.name;
-        monthLabel.text = event.month;
-        dayLabel.text = String(event.day);
+        dateLabel.text = event.month + " " + String(event.day)
+        
+        let end = event.day % 10
+        
+        if (end == 0 || end > 3) {
+            dateLabel.text! += "th"
+        }
+        else if (end == 3) {
+            dateLabel.text! += "rd"
+        }
+        else if (end == 2) {
+            dateLabel.text! += "nd"
+        }
+        else {
+            dateLabel.text! += "st"
+        }
         timeLabel.text = event.time;
         locationLabel.text = event.location;
         priceLabel.text = event.price;
+        descriptionLabel.text = event.description
+        
+        descriptionLabel.numberOfLines = 0
+        descriptionLabel.sizeToFit()
         
         if(self.event.going) {
             goingButton.setTitle("Cancel", for: .normal)

@@ -58,11 +58,13 @@ class EventTableViewController: UITableViewController {
         let event = events[indexPath.row]
         
         let image = UIImage(named: event.icon[0])
+        
+        let index1 = event.month.index(event.month.startIndex, offsetBy: 3)
 
         // Configure the cell...
         cell.nameLabel.text = event.name
         cell.priceLabel.text = event.price
-        cell.monthLabel.text = event.month
+        cell.monthLabel.text = event.month.substring(to: index1)
         cell.dayLabel.text = String(event.day)
         cell.iconImageView.image = image
     

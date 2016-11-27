@@ -78,19 +78,21 @@ class SearchViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "EventTableViewCell", for: indexPath) as! EventTableViewCell
-        let candy: Event
+        let event: Event
         if searchController.isActive && searchController.searchBar.text != "" {
-            candy = filteredArray[indexPath.row]
+            event = filteredArray[indexPath.row]
         } else {
-            candy = dataArray[indexPath.row]
+            event = dataArray[indexPath.row]
         }
         
-        let image = UIImage(named: candy.icon[0])
+        let image = UIImage(named: event.icon[0])
+        let index1 = event.month.index(event.month.startIndex, offsetBy: 3)
         
-        cell.nameLabel?.text = candy.name
-        cell.monthLabel?.text = candy.month
-        cell.dayLabel?.text = String(candy.day)
-        cell.priceLabel.text = candy.price
+        
+        cell.nameLabel.text = event.name
+        cell.monthLabel.text = event.month.substring(to: index1)
+        cell.dayLabel.text = String(event.day)
+        cell.priceLabel.text = event.price
         cell.iconImageView.image = image
         return cell
     }
