@@ -17,6 +17,7 @@
 		7D4850521DDFDAFC00F8075F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850491DDFDAFC00F8075F /* SearchViewController.swift */; };
 		7D4850531DDFDAFC00F8075F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D48504A1DDFDAFC00F8075F /* SplashViewController.swift */; };
 		7D4850551DDFF14F00F8075F /* GoingEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4850541DDFF14F00F8075F /* GoingEventTableViewController.swift */; };
+		7D975B4C1DEBF4710033010A /* homeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D975B4B1DEBF4710033010A /* homeUIView.swift */; };
 		7D97B6101DD92C1B009F749C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97B60F1DD92C1B009F749C /* EventViewController.swift */; };
 		7D97B6121DD92E36009F749C /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D97B6111DD92E36009F749C /* EventView.swift */; };
 		7DEF741E1DD8EEC3009A8865 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */; };
@@ -53,6 +54,7 @@
 		7D4850491DDFDAFC00F8075F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		7D48504A1DDFDAFC00F8075F /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		7D4850541DDFF14F00F8075F /* GoingEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoingEventTableViewController.swift; sourceTree = "<group>"; };
+		7D975B4B1DEBF4710033010A /* homeUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeUIView.swift; sourceTree = "<group>"; };
 		7D97B60F1DD92C1B009F749C /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		7D97B6111DD92E36009F749C /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		7DEF741D1DD8EEC3009A8865 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				FC411F581DC7D27000A5BFEE /* LaunchScreen.storyboard */,
 				FC411F5B1DC7D27000A5BFEE /* Info.plist */,
 				7D97B6111DD92E36009F749C /* EventView.swift */,
+				7D975B4B1DEBF4710033010A /* homeUIView.swift */,
 			);
 			path = MyCampus;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				7DEF74201DD8F1EA009A8865 /* EventTableViewController.swift in Sources */,
 				FC411F501DC7D27000A5BFEE /* AppDelegate.swift in Sources */,
 				7DEF74221DD90143009A8865 /* Event.swift in Sources */,
+				7D975B4C1DEBF4710033010A /* homeUIView.swift in Sources */,
 				7D4850501DDFDAFC00F8075F /* MyCampusModel.swift in Sources */,
 				7D97B6101DD92C1B009F749C /* EventViewController.swift in Sources */,
 			);
