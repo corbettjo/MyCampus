@@ -20,11 +20,11 @@ class MyCampusModel {
     var events = [Event]()
     var going = [Event]()
     
-    let hockeyBU = Event(name: "NU Hockey vs BU", photo: "hockey", price: "Free with Student ID", day: 29, month:"October", description:"Come join your fellow huskies root against the Terriers in the Dog House! It'll be paws-itively awesome! :)", location:"Matthew's Arena", time:"7:00pm", icon: ["sports", "free"])
+    let hockeyBU = Event(name: "Hockey: NEU vs BU", photo: "hockey", price: "Free with Student ID", day: 29, month:"October", description:"Come join your fellow huskies root against the Terriers in the Dog House! It'll be paws-itively awesome! :)", location:"Matthew's Arena", time:"7:00pm", icon: ["sports", "free"])
     
     let art = Event(name: "Painting with RSA", photo: "rsa", price: "Free with Student ID", day: 18, month: "November", description: "Bring a friend and compete for the best landscape painting!", location: "Ryder 403", time: "5:00pm", icon: ["fineArts", "free"])
     
-    let hockeyUNH = Event(name: "NU Hockey vs UNH", photo: "hockey", price: "Free with Student ID", day: 19, month:"November", description: "Come join your fellow huskies root agains the Wildcats in the Dog House! It'll be paws-itively awesome! :)", location: "Mathew's Arena", time: "7:00pm", icon: ["sports", "free"])
+    let hockeyUNH = Event(name: "Hockey: NEU vs UNH", photo: "hockey", price: "Free with Student ID", day: 19, month:"November", description: "Come join your fellow huskies root agains the Wildcats in the Dog House! It'll be paws-itively awesome! :)", location: "Mathew's Arena", time: "7:00pm", icon: ["sports", "free"])
     
     let romeo = Event(name: "Romeo and Juliet", photo: "romeo", price: "$15.00", day: 19, month: "November", description: "Stop by Centennial Quad for a free barbeque before Thanksgiving break!", location: "Ryder 340", time: "7:00pm", icon: ["performance"])
     
@@ -45,7 +45,7 @@ class MyCampusModel {
     let volunteer = Event(name: "Volunteer with Northeastern", photo: "volunteer", price: "Free", day: 12, month: "December", description: "Take a break from finals and volunteer during the Christmas season", location: "Centennial Quad", time: "8:00pm", icon: ["community", "free"])
     
 
-    let basketball = Event(name: "NU Basketball vs BU", photo: "basketball", price: "Free with Student ID", day: 2, month: "February", description: "Come join your fellow huskies root agains the Wildcats in the Dog House! It'll be paws-itively awesome! :)", location: "Matthews Arena", time: "7:00pm", icon: ["sports", "free"])
+    let basketball = Event(name: "Basketball: NEU vs BU", photo: "basketball", price: "Free with Student ID", day: 2, month: "February", description: "Come join your fellow huskies root agains the Wildcats in the Dog House! It'll be paws-itively awesome! :)", location: "Matthews Arena", time: "7:00pm", icon: ["sports", "free"])
     
     let scout = Event(name: "Meet Scout", photo: "scout", price: "Free with Student ID", day: 7, month: "February", description: "Interested in design and development? Meet the members of Scout!", location: "Ryder 375", time: "8:00pm", icon: ["clubs", "free"])
     
