@@ -26,6 +26,7 @@ class EventViewController: UIViewController {
     var iconImages = [String]()
 
     override func viewDidLoad() {
+        //goingButton.buttonType = UIButtonType.infoDark
         
         super.viewDidLoad();
         
@@ -58,11 +59,14 @@ class EventViewController: UIViewController {
         descriptionLabel.sizeToFit()
         
         if(self.event.going) {
-            goingButton.setTitle("Cancel", for: .normal)
+            goingButton.setTitle("Mark Not Going", for: .normal)
+            goingButton.setTitleColor(.red, for: .normal)
         }
         else {
             goingButton.setTitle("Mark as Going", for: .normal)
+            goingButton.setTitleColor(self.view.tintColor, for: .normal)
         }
+        facebookButton.setTitleColor(self.view.tintColor, for: .normal)
         
         iconImages = ["free", "clubs", "music", "video", "sports", "food", "performance", "fineArts", "community"]
         
@@ -94,10 +98,13 @@ class EventViewController: UIViewController {
     @IBAction func goingAction(_ sender: Any) {
         modelDemo.goingTo(goEvent: self.event)
         if(self.event.going) {
-            goingButton.setTitle("Cancel", for: .normal)
+            goingButton.setTitle("Mark Not Going", for: .normal)
+            goingButton.setTitleColor(.red, for: .normal)
         }
         else {
             goingButton.setTitle("Mark as Going", for: .normal)
+            goingButton.setTitleColor(self.view.tintColor, for: .normal)
+
         }
         
     }
