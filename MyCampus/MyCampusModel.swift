@@ -75,14 +75,18 @@ class MyCampusModel {
     }
     
     public func goingTo(goEvent: Event) -> Void {
-        goEvent.going = !goEvent.going;
+        goEvent.going = !goEvent.going
         if(goEvent.going) {
             going.append(goEvent)
+            let indexGo = events.index(of: goEvent)
+            events.remove(at: indexGo!)
             print(going)
         }
         else {
-            let indexRemove = going.index(of: goEvent);
-            going.remove(at: indexRemove!); }
+            let indexRemove = going.index(of: goEvent)
+            going.remove(at: indexRemove!)
+            events.append(goEvent)
+        }
     }
     
     public func getEvents(ofCategory: String) -> [Event] {
