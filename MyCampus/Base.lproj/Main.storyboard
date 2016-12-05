@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11760" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -142,7 +142,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upcoming Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDQ-au-MPN">
-                                <rect key="frame" x="16" y="351" width="293" height="43"/>
+                                <rect key="frame" x="16" y="350" width="293" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <nil key="textColor"/>
@@ -156,20 +156,12 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMi-HC-Lkr" customClass="homeUIView" customModule="MyCampus" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="120" width="375" height="170"/>
+                                <rect key="frame" x="0.0" y="120" width="375" height="184"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="zW9-Ae-toe" kind="embed" id="hwN-r8-hrG"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDm-KZ-guN">
-                                <rect key="frame" x="148" y="298" width="79" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="See More &gt;"/>
-                                <connections>
-                                    <segue destination="zW9-Ae-toe" kind="show" id="QEM-ve-7gy"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHJ-zp-bhe">
                                 <rect key="frame" x="148" y="573" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -179,12 +171,20 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ond-aa-E1k">
-                                <rect key="frame" x="16" y="82" width="197" height="40"/>
+                                <rect key="frame" x="16" y="72" width="197" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDm-KZ-guN">
+                                <rect key="frame" x="148" y="312" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="See More &gt;"/>
+                                <connections>
+                                    <segue destination="zW9-Ae-toe" kind="show" id="QEM-ve-7gy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -344,12 +344,12 @@
             </objects>
             <point key="canvasLocation" x="2145" y="-370"/>
         </scene>
-        <!--Item-->
+        <!--Upcoming Events-->
         <scene sceneID="bqS-DV-iYD">
             <objects>
                 <tableViewController id="Oqu-eC-m3d" customClass="EventTableViewController" customModule="MyCampus" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="7jg-Jm-lBm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -409,7 +409,7 @@
                             <outlet property="delegate" destination="Oqu-eC-m3d" id="RmH-Rd-Zsa"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="JuG-xL-clb"/>
+                    <navigationItem key="navigationItem" title="Upcoming Events" id="rgO-fZ-s6Z"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqD-Z2-Zrn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -570,9 +570,10 @@
             </objects>
             <point key="canvasLocation" x="367" y="-1305"/>
         </scene>
-        <!--Item-->
+        <!--My Events-->
         <scene sceneID="eVh-zM-laq">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dyv-Zl-VBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="zW9-Ae-toe" customClass="GoingEventTableViewController" customModule="MyCampus" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="ga7-Dt-crz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -635,9 +636,8 @@
                             <outlet property="delegate" destination="zW9-Ae-toe" id="A0E-pD-WYK"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="Wc9-eI-dGp"/>
+                    <navigationItem key="navigationItem" title="My Events" id="tfO-DU-r8h"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dyv-Zl-VBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2144.8000000000002" y="-1511.2443778110946"/>
         </scene>
@@ -687,8 +687,8 @@
         <image name="search" width="28" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="awN-DA-sO6"/>
         <segue reference="QEM-ve-7gy"/>
-        <segue reference="z77-zV-uUP"/>
-        <segue reference="u3j-Zi-53S"/>
+        <segue reference="Ax7-dm-qPJ"/>
     </inferredMetricsTieBreakers>
 </document>
